@@ -650,7 +650,8 @@ footer .social-media-svg:focus {
 }
 
 .tc-accept-wrapper {
-  margin-top: 8px;
+  margin-top: 8px;'
+position: relative;
 }
 
 .tc-accept-wrapper label {
@@ -691,7 +692,8 @@ footer .social-media-svg:focus {
 }
 
 input[type="checkbox"] {
-  appearance: none;
+  opacity: 0;
+  position:absolute;
 }
 
 .checkbox-icon {
